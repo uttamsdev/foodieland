@@ -443,7 +443,7 @@
   display: flex;
   justify-content: center;
 }
-.subscribe-section{
+.subscribe-section {
   position: relative;
   width: 1400px;
   margin: 0 auto;
@@ -452,12 +452,12 @@
   height: 450px;
   margin-top: 100px;
 }
-.sub-images img:first-child{
+.sub-images img:first-child {
   position: absolute;
   left: 0;
   bottom: 0;
 }
-.sub-images img:last-child{
+.sub-images img:last-child {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -466,13 +466,13 @@
   width: 600px;
   text-align: center;
 }
-.subscribe-area h1{
+.subscribe-area h1 {
   margin: 80px 0px 24px 0px;
   font-size: 40px;
   color: var(--primary-color);
   font-weight: 600;
 }
-.subscribe-area p{
+.subscribe-area p {
   color: var(--secondary-color);
   font-size: 16px;
   margin-bottom: 65px;
@@ -487,12 +487,12 @@
   margin-left: -165px;
   width: 150px;
 }
-.input-area{
+.input-area {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.input-area input{
+.input-area input {
   width: 450px;
   height: 80px;
   padding: 0px 20px;
@@ -502,56 +502,54 @@
   background-color: white;
 }
 
-footer{
+footer {
   margin-top: 100px;
 }
 .footer ul {
   display: flex;
   gap: 20px;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 720px;
   padding-bottom: 30px;
 }
-.footer p:first-child{
+.footer p:first-child {
   font-size: 24px;
   font-family: "Lobster", cursive;
   color: var(--primary-color);
   margin-bottom: 10px;
 }
-.footer p:last-child{
+.footer p:last-child {
   color: var(--secondary-color);
 }
-.footer ul li a{
+.footer ul li a {
   font-size: 16px;
   font-weight: 500;
   color: var(--primary-color);
 }
-hr{
+hr {
   width: 70%;
   margin: 0 auto;
-  color: rgba(0, 0, 0, 0.1) !important;
+  height: 1px;
+  border: none;
   background-color: rgba(0, 0, 0, 0.1);
-  /* height: 0.5px; */
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  border-width: 80%; */
 }
-.copyright{
+.copyright {
   margin: 30px 0px;
   display: flex;
   justify-content: space-evenly;
   gap: 300px;
 }
-.copyright p{
+.copyright p {
   color: var(--secondary-color);
 }
-.copyright span{
+.copyright span {
   color: orangered;
 }
-.footer-icons i{
+.footer-icons i {
   margin-right: 20px;
   cursor: pointer;
 }
