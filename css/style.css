@@ -215,14 +215,14 @@
   margin-bottom: 100px;
 }
 
-.recipes{
-    width: 1400px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 50px;
-    place-content: center;
-    place-items: center;
+.recipes {
+  width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 50px;
+  place-content: center;
+  place-items: center;
 }
 .recipe > img {
   width: 330px;
@@ -234,26 +234,154 @@
   border-radius: 30px;
   position: relative;
 }
-.recipe h3{
-    font-weight: 600;
-    font-size: 24px;
-    margin-top: 24px;
-    margin-bottom: 30px;
+.recipe h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 30px;
 }
 
-.recipe img:nth-child(2){
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    top: 25px;
-    right: 30px;
+.recipe img:nth-child(2) {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 25px;
+  right: 30px;
 }
-.recipe-logo{
-    display: flex;
-    gap: 20px;
+.recipe-logo {
+  display: flex;
+  gap: 20px;
 }
-.rcp-logo{
-    display: flex;
-    gap: 10px;
-    color: var(--secondary-color);
+.rcp-logo {
+  display: flex;
+  gap: 10px;
+  color: var(--secondary-color);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  gap: 50px;
+}
+.hero-info img {
+  width: 660px;
+  height: 597px;
+}
+.hero-section h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  margin-top: 250px;
+}
+.hero-info {
+  width: 600px;
+}
+.hero-section p {
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+.common-btn {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 20px 45px;
+  border-radius: 12px;
+}
+.common-btn a {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+.instra-section {
+  margin-top: 200px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
+.instra-section > h1 {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.instra-section > p {
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.user-badge-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-badge {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.user-badge img:first-child {
+  width: 30px;
+  height: 30px;
+}
+.instra-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 200px;
+}
+.card {
+  width: 290px;
+  background-color: white;
+  position: relative;
+  padding-bottom: 20px;
+}
+.user-badge-info h3 {
+  color: var(--primary-color);
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  width: 30px;
+  background: rgba(18, 18, 18, 0.7);
+  border-radius: 10.0533px;
+  color: white;
+  padding: 5px 8px;
+}
+.like-comment{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.instra-icon img{
+  margin-right: 10px;
+}
+.liked-by{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.liked-by img{
+  width: 20px;
+  height: 20px;
+}
+.date{
+  color: var(--secondary-color);
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.instra-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+  padding-bottom: 80px;
 }
