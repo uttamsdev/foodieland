@@ -258,7 +258,7 @@
   align-items: center;
   color: var(--secondary-color);
 }
-.rcp-logo p{
+.rcp-logo p {
   font-weight: 500;
 }
 
@@ -424,16 +424,80 @@
   border-radius: 30px;
   position: relative;
 }
-.updated-recipe{
+.updated-recipe {
   width: 300px;
 }
-.updated-recipe > img{
+.updated-recipe > img {
   width: 300px;
 }
-.updated-recipe h3{
+.updated-recipe h3 {
   font-size: 20px;
 }
 
-.updated-logo p{
+.updated-logo p {
   font-size: 14px;
+}
+.subscribe {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.subscribe-section{
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+  background: #e7f9fd;
+  border-radius: 60px;
+  height: 450px;
+  margin-top: 100px;
+}
+.sub-images img:first-child{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sub-images img:last-child{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.subscribe-area {
+  width: 600px;
+  text-align: center;
+}
+.subscribe-area h1{
+  margin: 80px 0px 24px 0px;
+  font-size: 40px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.subscribe-area p{
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin-bottom: 65px;
+  line-height: 25px;
+}
+.btn {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+  padding: 0px 0px !important;
+  margin-left: -165px;
+  width: 150px;
+}
+.input-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-area input{
+  width: 450px;
+  height: 80px;
+  padding: 0px 20px;
+  outline: none;
+  border: none;
+  border-radius: 24px;
+  background-color: white;
 }
