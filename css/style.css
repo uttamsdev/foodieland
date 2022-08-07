@@ -18,6 +18,39 @@
   --secondary-color: rgba(0, 0, 0, 0.6);
 }
 
+/* swipper js  */
+/* .swiper {
+  width: 100%;
+  height: 100%;
+} */
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .logo > h1 {
   font-family: "Lobster", cursive;
   font-size: 25px;
@@ -55,6 +88,7 @@
 
 .banner-info {
   width: 700px;
+  height: 590px;
   background: #e7fafe;
   padding: 50px 0px 0px 70px;
   border-radius: 30px 0px 0px 30px;
@@ -101,6 +135,8 @@
 }
 .banner-img > img {
   border-radius: 0px 30px 30px 0px;
+  width: 653px;
+  height: 643px;
   /* height: 720px; */
 }
 
@@ -143,6 +179,10 @@
   font-weight: 500;
   color: var(--secondary-color);
   font-size: 14px;
+}
+.banner-btn img{
+  width: 24px;
+  height: 24px;
 }
 .banner-btn button {
   width: 200px;
