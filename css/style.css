@@ -170,6 +170,10 @@
   display: flex;
   gap: 10px;
 }
+.user img{
+  width: 50px;
+  height: 50px;
+}
 .user p:first-child {
   font-weight: bold;
   color: var(--primary-color);
@@ -594,4 +598,117 @@ hr {
 .footer-icons i {
   margin-right: 20px;
   cursor: pointer;
+}
+
+@media (max-width:688px) {
+  .ctg-wrapper h1{
+    font-size: 30px;
+  }
+  .ctg-wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .categories{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .recipes-section h1{
+    font-size: 30px;
+    padding: 0px 5px;
+  }
+  .recipes-section > p{
+    padding: 0px 5px;
+    margin-bottom: 20px;
+  }
+  .recipes{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-info{
+    width: 100%;
+  }
+  .hero-info h1{
+    font-size: 30px;
+  }
+  .hero-section{
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .hero-section img{
+    width: 80%;
+  }
+  .hero-info{
+    /* padding: 20px; */
+    width: 100%;
+  }
+  .instra-section h1{
+    font-size: 30px;
+  }
+  .instra-cards{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .new-recipes h1 {
+    /* flex-direction: column; */
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .new-recipes p{
+    width: 100%;
+  }
+  .new-recipes{
+    padding: 0px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .updated-recipes {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .subscribe-area h1{
+    font-size: 25px;
+  }
+  .subscribe-area p{
+    padding: 0px 10px;
+  }
+  .subscribe-section{
+    width: 100%;
+    flex-direction: column;
+  }
+  .subscribe-area{
+    width: 100%;
+    /* padding: 0px 10px; */
+  }
+
+  .subscribe{
+    width: 100%;
+    flex-direction: column;
+  }
+  .sub-images img{
+    display: none;
+  }
+  .input-area input{
+    width: 80%;
+  }
+  .instra-btn button{
+    margin: 0 auto;
+  }
+  .footer{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .copyright{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .footer div:first-child{
+    text-align: center;
+    padding: 0px 20px;
+  }
 }
