@@ -75,6 +75,9 @@
   font-size: 16px;
   color: var(--primary-color);
 }
+.navbar > i{
+  display: none;
+}
 .social-icons {
   display: flex;
   gap: 25px;
@@ -601,6 +604,9 @@ hr {
 }
 
 @media (max-width: 688px) {
+  .navbar > i{
+    display: block;
+  }
   .navbar {
     position: relative;
   }
